@@ -22,7 +22,7 @@ DEPENDENCIES:
   - SVProgressHUD
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - Alamofire
     - MaterialComponents
     - MDFInternationalization
@@ -36,4 +36,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: f502b8de500bbb8fc0c9d61264a7555b9d4f097b
 
-COCOAPODS: 1.6.1
+COCOAPODS: 1.8.4
