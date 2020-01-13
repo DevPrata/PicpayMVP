@@ -1,20 +1,21 @@
 //
-//  ContatosPresenter.swift
-//  
+//  CadastroRouter.swift
+//  ProjetoMVPPicpay
 //
-//  Created by Guilherme Prata Costa on 28/08/19.
+//  Created by Guilherme Prata Costa on 13/01/20.
+//  Copyright © 2020 Guilherme Prata Costa. All rights reserved.
 //
 
 import Foundation
 import UIKit
 
-class ContatosPresenterRouter {
+class CadastroPresenterRouter {
     
     private let cartao = "segueCadastrarCartao"
     
-    private weak var viewController: ContatosViewController?
+    private weak var viewController: CadastroController?
     
-    init(_ viewController: ContatosViewController) {
+    init(_ viewController: CadastroController) {
         self.viewController = viewController
     }
     

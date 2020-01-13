@@ -351,6 +351,12 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="nomeTitular" destination="Gs5-wv-zGt" id="pOD-ho-ank"/>
+                        <outlet property="numeroCVV" destination="wqx-De-k76" id="1xe-Kp-Lmc"/>
+                        <outlet property="numeroCartao" destination="iDX-72-6l7" id="BoK-Hm-lFr"/>
+                        <outlet property="vencimento" destination="cKS-Ed-0uK" id="KFN-Zg-a6z"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yZQ-Cw-9uw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
