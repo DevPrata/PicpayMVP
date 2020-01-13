@@ -1,0 +1,39 @@
+PODS:
+  - Alamofire (4.8.2)
+  - MaterialComponents/AnimationTiming (85.8.0)
+  - MaterialComponents/Palettes (85.8.0)
+  - MaterialComponents/private/Application (85.8.0)
+  - MaterialComponents/private/Math (85.8.0)
+  - MaterialComponents/TextFields (85.8.0):
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/Palettes
+    - MaterialComponents/private/Math
+    - MaterialComponents/Typography
+    - MDFInternationalization
+  - MaterialComponents/Typography (85.8.0):
+    - MaterialComponents/private/Application
+    - MaterialComponents/private/Math
+  - MDFInternationalization (2.0.0)
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - Alamofire
+  - MaterialComponents/TextFields
+  - SVProgressHUD
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - MaterialComponents
+    - MDFInternationalization
+    - SVProgressHUD
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  MaterialComponents: d3c6936b52687041650c99d2298d16fb2767f97a
+  MDFInternationalization: 010097556d6b09d2c4ea38e0820ea6d37be6a314
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: f502b8de500bbb8fc0c9d61264a7555b9d4f097b
+
+COCOAPODS: 1.6.1
