@@ -262,15 +262,75 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </button>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Número do cartão" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iDX-72-6l7" customClass="TextFieldMaterialDesign" customModule="ProjetoMVPPicpay" customModuleProvider="target">
+                                        <rect key="frame" x="40" y="97" width="335" height="57"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="57" id="pcy-PF-3md"/>
+                                        </constraints>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numberPad" textContentType="cc-number"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="colorActive" value="#11C76F"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Nome do titular" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Gs5-wv-zGt" customClass="TextFieldMaterialDesign" customModule="ProjetoMVPPicpay" customModuleProvider="target">
+                                        <rect key="frame" x="40" y="199" width="335" height="57"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="57" id="msc-AI-Lc2"/>
+                                        </constraints>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="colorActive" value="#11C76F"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </textField>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="1Os-V8-l6K">
+                                        <rect key="frame" x="40" y="296" width="335" height="57"/>
+                                        <subviews>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Vencimento" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cKS-Ed-0uK" customClass="TextFieldMaterialDesign" customModule="ProjetoMVPPicpay" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="142.5" height="57"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="57" id="cjN-Gh-bjO"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="colorActive" value="#11C76F"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </textField>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="CVV" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wqx-De-k76" customClass="TextFieldMaterialDesign" customModule="ProjetoMVPPicpay" customModuleProvider="target">
+                                                <rect key="frame" x="192.5" y="0.0" width="142.5" height="57"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="57" id="Ook-9g-qeF"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="colorActive" value="#11C76F"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </textField>
+                                        </subviews>
+                                    </stackView>
                                 </subviews>
                                 <color key="backgroundColor" red="0.1138100401" green="0.117559053" blue="0.12623128289999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="iDX-72-6l7" secondAttribute="trailing" constant="39" id="2jX-Up-ZpI"/>
+                                    <constraint firstItem="1Os-V8-l6K" firstAttribute="top" secondItem="Gs5-wv-zGt" secondAttribute="bottom" constant="40" id="3KX-jY-34z"/>
+                                    <constraint firstItem="1Os-V8-l6K" firstAttribute="leading" secondItem="bZd-jg-Iv9" secondAttribute="leading" constant="40" id="9hF-LZ-rbf"/>
                                     <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="jef-aN-6fg" secondAttribute="trailing" constant="20" symbolic="YES" id="AaW-Ns-gpq"/>
+                                    <constraint firstItem="Gs5-wv-zGt" firstAttribute="leading" secondItem="bZd-jg-Iv9" secondAttribute="leading" constant="40" id="EuE-Vk-n2u"/>
                                     <constraint firstItem="jef-aN-6fg" firstAttribute="top" secondItem="bZd-jg-Iv9" secondAttribute="top" constant="16" id="F9j-xr-4Su"/>
                                     <constraint firstAttribute="bottom" secondItem="yGt-Q9-Gv9" secondAttribute="bottom" constant="20" id="Fpr-hY-qlc"/>
+                                    <constraint firstItem="Gs5-wv-zGt" firstAttribute="top" secondItem="iDX-72-6l7" secondAttribute="bottom" constant="45" id="Tzc-Q4-bDu"/>
                                     <constraint firstItem="yGt-Q9-Gv9" firstAttribute="leading" secondItem="bZd-jg-Iv9" secondAttribute="leading" constant="61" id="UQa-Rb-SkF"/>
                                     <constraint firstAttribute="trailing" secondItem="yGt-Q9-Gv9" secondAttribute="trailing" constant="51" id="Wmx-IJ-igt"/>
+                                    <constraint firstAttribute="trailing" secondItem="1Os-V8-l6K" secondAttribute="trailing" constant="39" id="d38-l6-pkF"/>
+                                    <constraint firstAttribute="trailing" secondItem="Gs5-wv-zGt" secondAttribute="trailing" constant="39" id="eG4-zD-L47"/>
+                                    <constraint firstItem="iDX-72-6l7" firstAttribute="leading" secondItem="bZd-jg-Iv9" secondAttribute="leading" constant="40" id="fcV-vh-HMt"/>
                                     <constraint firstItem="jef-aN-6fg" firstAttribute="leading" secondItem="bZd-jg-Iv9" secondAttribute="leading" constant="40" id="gM0-yA-qBs"/>
+                                    <constraint firstItem="iDX-72-6l7" firstAttribute="top" secondItem="jef-aN-6fg" secondAttribute="bottom" constant="46" id="n17-Cb-OmK"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -294,7 +354,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yZQ-Cw-9uw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3561" y="-153"/>
+            <point key="canvasLocation" x="3560.8695652173915" y="-153.34821428571428"/>
         </scene>
     </scenes>
     <resources>
