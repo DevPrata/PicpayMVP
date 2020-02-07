@@ -52,9 +52,9 @@ class TextFieldMaterialDesign: MDCTextField {
     }
     
     //MARK: Aplicação da Cor no textfield
-    public func applyColor(){
+    private func applyColor(){
         tvMaterialController = MDCTextInputControllerFilled(textInput: self)
-        tvMaterialController.inlinePlaceholderColor = UIColor(red: 255, green: 255, blue: 255, alpha: 0.4)
+        tvMaterialController.inlinePlaceholderColor = UIColor(red: 1, green: 1, blue: 1, alpha: 0.4)
         tvMaterialController.inlinePlaceholderFont = UIFont.init(name: "SFUIText-Bold", size: 16)
         tvMaterialController.textInputFont = UIFont.init(name: "SFUIText-Bold", size: 16)
         tvMaterialController.trailingViewTrailingPaddingConstant()
